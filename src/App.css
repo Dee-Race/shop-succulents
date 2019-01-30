@@ -2,12 +2,13 @@
   --mainBlue: #2a2a72;
   --lightBlue: #009ffd;
   --mainWhite: #f3f3f3;
+  --mainDark: black;
 }
 
 body {
   font-family: "Roboto", sans-serif !important;
   background: var(--mainWhite) !important;
-  color: var(--mainBlue) !important;
+  color: var(--mainDark) !important;
 }
 
 .text-title {
