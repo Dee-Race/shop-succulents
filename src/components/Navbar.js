@@ -7,7 +7,7 @@ class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-sm bg-primary navbar-light bg-light px-sm-5">
         <Link to="/" className="navbar-brand">
-          <h3>Home</h3>
+          <i class="fas fa-spa" />
         </Link>
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
