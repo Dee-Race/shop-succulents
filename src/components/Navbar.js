@@ -5,7 +5,7 @@ import ProductList from "./ProductList";
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-sm bg-primary navbar-light px-sm-5">
+      <nav className="navbar navbar-expand-sm bg-primary navbar-light bg-light px-sm-5">
         <Link to="/" className="navbar-brand">
           <h3>Home</h3>
         </Link>
