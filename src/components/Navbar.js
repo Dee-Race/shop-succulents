@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-//import styled from "styled-components";
+import styled from "styled-components";
 import { ButtonContainer } from "./Button";
 import ProductList from "./ProductList";
 
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-sm bg-primary navbar-light bg-light px-sm-5">
+      <NavWrapper className="navbar navbar-expand-sm bg-primary navbar-light bg-light px-sm-5">
         <Link to="/" className="navbar-brand">
           <i class="fas fa-spa" />
         </Link>
@@ -26,9 +26,17 @@ class Navbar extends Component {
             Cart
           </ButtonContainer>
         </Link>
-      </nav>
+      </NavWrapper>
     );
   }
 }
 
 export default Navbar;
+
+const NavWrapper = styled.nav`
+  .nav-link {
+    color: var(--mainGreen) !important;
+    font-size: 1.3rem;
+    // 1rem is 16px
+  }
+`;
