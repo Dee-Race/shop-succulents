@@ -37,6 +37,7 @@ const NavWrapper = styled.nav`
   .nav-link {
     color: var(--mainGreen) !important;
     font-size: 1.3rem;
+    text-transform: capitalize;
     // 1rem is 16px
   }
 `;
