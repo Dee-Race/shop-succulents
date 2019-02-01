@@ -1,3 +1,22 @@
+### Shop Succulents
+
+This project was created with Create React App and is an e-commerce application where users
+can view and shop for sweet little succulents. This application uses React, Font Awesome, Google Fonts, and Styled Components.
+
+### Install
+
+Run `npm install` along with `npm start` in the terminal.
+
+### Contributions
+
+Bug reports and pull requests: https://github.com/Dee-Race/shop-succulents
+
+### License
+
+This project has been licensed under the MIT open source license.
+
+This README will be updated as the application is updated.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
