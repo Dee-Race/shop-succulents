@@ -76,3 +76,16 @@ export const productData = [
     description: "Lorem Ipsum"
   }
 ];
+
+export const productDetail = [
+  {
+    id: 1,
+    title: "Succulent 1",
+    img: "",
+    price: 15,
+    description: "Lorem Ipsum",
+    inCart: false,
+    count: 0,
+    total: 0
+  }
+];
