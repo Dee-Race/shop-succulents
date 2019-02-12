@@ -9,7 +9,7 @@ class Navbar extends Component {
     return (
       <NavWrapper className="navbar navbar-expand-sm bg-primary navbar-light bg-light px-sm-5">
         <Link to="/" className="navbar-brand">
-          <i class="fas fa-spa" />
+          <i className="fas fa-spa" />
         </Link>
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
