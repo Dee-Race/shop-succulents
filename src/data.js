@@ -8,7 +8,7 @@ export const productData = [
   {
     id: 1,
     title: "Succulent 1",
-    img: "",
+    img: "images/product-1.png",
     price: 15,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
