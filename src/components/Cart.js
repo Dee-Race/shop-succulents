@@ -4,7 +4,7 @@ class Cart extends Component {
   render() {
     return (
       <div>
-        <h3>Hello from cart</h3>
+        <h3>Cart Information</h3>
       </div>
     );
   }
