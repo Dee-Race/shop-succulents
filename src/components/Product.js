@@ -24,7 +24,7 @@ class Product extends Component {
               }}
             >
               {inCart ? (
-                <p className="text-capitaliza mb-0" disabled>
+                <p className="text-capitalize mb-0" disabled>
                   in cart
                 </p>
               ) : (
@@ -49,6 +49,10 @@ class Product extends Component {
 export default Product;
 
 const ProductWrapper = styled.div`
+  .cart-btn {
+    border: 2px solid white;
+    padding: 0.8rem 0;
+  }
   .card {
     border-color: transparent;
     transition: all 1s linear;
@@ -61,7 +65,17 @@ const ProductWrapper = styled.div`
   &:hover {
     .card {
       border: 0.04rem solid rbga(0, 0, 0, 0.2);
-      box-shadow: 2px 2px 5px 0ps rgba(0, 0, 0, 0.2);
+      box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
     }
+    .card-footer {
+      background: rbga(247, 247, 247);
+    }
+  }
+  .img-container {
+    position: relative;
+    overflow: hidden;
+  }
+  .img-container:hover .card-img-top {
+    transform: scale(1.2);
   }
 `;
