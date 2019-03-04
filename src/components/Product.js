@@ -49,10 +49,6 @@ class Product extends Component {
 export default Product;
 
 const ProductWrapper = styled.div`
-  .cart-btn {
-    border: 2px solid white;
-    padding: 0.8rem 0;
-  }
   .card {
     border-color: transparent;
     transition: all 1s linear;
@@ -75,7 +71,30 @@ const ProductWrapper = styled.div`
     position: relative;
     overflow: hidden;
   }
+  .card-img-top {
+    transition: all 1s linear;
+  }
   .img-container:hover .card-img-top {
     transform: scale(1.2);
+  }
+  .cart-btn {
+    position: absolute;
+    padding: 0.2rem 0.4rem;
+    bottom: 0;
+    right: 0;
+    background: var(--mainGreen);
+    border: none;
+    color: var(--mainWhite);
+    font-size: 1.4rem;
+    border-radius: 0.5rem 0 0 0;
+    transform: translate(100%, 100%);
+    transition: all 0.5s linear;
+  }
+  .img-container:hover .cart-btn {
+    transform: translate(0, 0);
+  }
+  .cart-btn:hover {
+    color: var(--mainGreen);
+    cursor: pointer;
   }
 `;
