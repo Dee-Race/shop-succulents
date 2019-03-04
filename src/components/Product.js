@@ -48,4 +48,20 @@ class Product extends Component {
 
 export default Product;
 
-const ProductWrapper = styled.div``;
+const ProductWrapper = styled.div`
+  .card {
+    border-color: transparent;
+    transition: all 1s linear;
+  }
+  .card-footer {
+    background: transparent;
+    border-top: transparent;
+    transition: all 1s linear;
+  }
+  &:hover {
+    .card {
+      border: 0.04rem solid rbga(0, 0, 0, 0.2);
+      box-shadow: 2px 2px 5px 0ps rgba(0, 0, 0, 0.2);
+    }
+  }
+`;

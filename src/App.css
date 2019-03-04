@@ -2,13 +2,14 @@
   --mainBlue: #2a2a72;
   --lightBlue: #009ffd;
   --mainWhite: white;
+  --mainGrey: #f7faf9;
   --mainDark: black;
   --mainGreen: #31b093;
 }
 
 body {
   font-family: "Major Mono Display", sans-serif !important;
-  background: var(--mainWhite) !important;
+  background: var(--mainGrey) !important;
   color: var(--mainDark) !important;
 }
 
