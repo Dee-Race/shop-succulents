@@ -22,14 +22,23 @@ class Product extends Component {
               onClick={() => {
                 console.log("added to cart");
               }}
-            />
-            {inCart ? (
-              <p className="text-capitaliza mb-0" disabled>
-                in cart
-              </p>
-            ) : (
-              <i className="fas fa-cart-plus" />
-            )}
+            >
+              {inCart ? (
+                <p className="text-capitaliza mb-0" disabled>
+                  in cart
+                </p>
+              ) : (
+                <i className="fas fa-cart-plus" />
+              )}
+            </button>
+          </div>
+          {/* card footer */}
+          <div className="card-footer d-flex jusify-content-between">
+            <p className="align-self-center mb-0">{title}</p>
+            <h5 className="h5.text-blue.font-italic mb-0">
+              <span className="mr-1">$</span>
+              {price}
+            </h5>
           </div>
         </div>
       </ProductWrapper>
