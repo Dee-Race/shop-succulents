@@ -33,9 +33,9 @@ class Product extends Component {
             </button>
           </div>
           {/* card footer */}
-          <div className="card-footer d-flex jusify-content-between">
+          <div className="card-footer d-flex justify-content-between">
             <p className="align-self-center mb-0">{title}</p>
-            <h5 className="h5.text-blue.font-italic mb-0">
+            <h5 className="text-green font-italic mb-0">
               <span className="mr-1">$</span>
               {price}
             </h5>
