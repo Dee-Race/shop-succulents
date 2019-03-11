@@ -9,6 +9,10 @@ class ProductProvider extends Component {
     productDetail: productDetail
   };
 
+  componentDidMount() {
+    this.setProducts();
+  }
+
   setProducts = () => {
     let tempProducts = [];
     //loop through all store products
