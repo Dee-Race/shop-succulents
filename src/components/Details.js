@@ -31,7 +31,19 @@ class Details extends Component {
                   <img src={img} className="img-fluid" alt="product" />
                 </div>
                 {/* product text */}
-                <div className="col-10 mx-auto col-md-6 my-3 text-capitalize" />
+                <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
+                  <h2>Succulent Name: {title}</h2>
+                  <h4 className="text-green">
+                    <strong>
+                      price : <span>$</span>
+                      {price}
+                    </strong>
+                  </h4>
+                  <p className="text-capitalize font-weight-bold mt-3 mb-0">
+                    product info
+                  </p>
+                  <p className="text-muted lead">{description}</p>
+                </div>
               </div>
             </div>
           );
