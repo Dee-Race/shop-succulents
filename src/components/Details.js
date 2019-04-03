@@ -43,6 +43,15 @@ class Details extends Component {
                     product info
                   </p>
                   <p className="text-muted lead">{description}</p>
+                  {/* buttons */}
+                  <div>
+                    <Link to="/">
+                      <ButtonContainer>Back to products</ButtonContainer>
+                    </Link>
+                    <ButtonContainer disabled={inCart ? true : false}>
+                      {inCart ? "inCart" : "add to cart"}
+                    </ButtonContainer>
+                  </div>
                 </div>
               </div>
             </div>
